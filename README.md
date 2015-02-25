@@ -30,7 +30,7 @@ Debug will then build successfully after that.
 ## Usage
 Command line args are rather sparse. You only have the following:
   - --help or /? - shows you the command line arguments
-  - --default-config - creates a LogRotater.default.json file with all the defaults set. You will need to rename it to LogRotator.json before it can be seen. This is so the program doesn't stomp on an existing configuration file.
+  - --default-config - creates a LogRotater.default.json file with all the defaults set. You will need to rename it to LogRotator.json before it can be used. This is so the program doesn't stomp on an existing configuration file.
   - --config <filepath> - allows you to specify a different configuration file
 
 By default LogRotater looks for a ./LogRotater.json file. If none is found it dumps out the usage.
