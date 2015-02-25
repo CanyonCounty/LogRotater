@@ -1,0 +1,6 @@
+[submodule "LogRotater/Libs/CC.Common.JSON"]
+	path = LogRotater/Libs/CC.Common.JSON
+	url = git@github.com:CanyonCounty/CC.Common.JSON.git
+[submodule "LogRotater/Libs/CC.Common.Compression"]
+	path = LogRotater/Libs/CC.Common.Compression
+	url = git@github.com:CanyonCounty/CC.Common.Compression.git

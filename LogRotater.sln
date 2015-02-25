@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogRotater", "LogRotater\LogRotater.csproj", "{5756C49E-45E5-48DB-B094-1CE61870238D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CC.Common.Compression", "LogRotater\Libs\CC.Common.Compression\CC.Common.Compression\CC.Common.Compression.csproj", "{879B40EE-BFA5-4344-AEC4-15EE3706CABA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CC.Common.JSON", "LogRotater\Libs\CC.Common.JSON\CC.Common.JSON\CC.Common.JSON.csproj", "{3BE57ABA-0683-45AE-9434-F0F1BDD0030F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5756C49E-45E5-48DB-B094-1CE61870238D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5756C49E-45E5-48DB-B094-1CE61870238D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5756C49E-45E5-48DB-B094-1CE61870238D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5756C49E-45E5-48DB-B094-1CE61870238D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{879B40EE-BFA5-4344-AEC4-15EE3706CABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{879B40EE-BFA5-4344-AEC4-15EE3706CABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{879B40EE-BFA5-4344-AEC4-15EE3706CABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{879B40EE-BFA5-4344-AEC4-15EE3706CABA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BE57ABA-0683-45AE-9434-F0F1BDD0030F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE57ABA-0683-45AE-9434-F0F1BDD0030F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE57ABA-0683-45AE-9434-F0F1BDD0030F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE57ABA-0683-45AE-9434-F0F1BDD0030F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
