@@ -53,12 +53,14 @@
     <Compile Include="PartialClass\Program.OlderThan.cs" />
     <Compile Include="PartialClass\Program.Prefs.cs" />
     <Compile Include="PartialClass\Program.CommandLine.cs" />
+    <Compile Include="PartialClass\Program.CalculateAge.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="PartialClass\Program.TestCompression.cs" />
     <Compile Include="PartialClass\Program.ZipDirectory.cs" />
     <Compile Include="PartialClass\Program.Usage.cs" />
     <Compile Include="PartialClass\Program.OldFiles.cs" />
     <Compile Include="PartialClass\Program.Header.cs" />
+    <Compile Include="Program.Process.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

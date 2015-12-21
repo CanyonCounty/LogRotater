@@ -28,17 +28,16 @@ namespace LogRotater
       Console.WriteLine("Make your changes and save it as " + PREF_FILE);
     }
 
-    private static void HandleCommandLine(string[] args, out bool done)
+    private static Action HandleCommandLine(string[] args)
     {
-      done = false;
-
       if (args.Length > 0)
       {
         switch (args[0])
         {
-          case "--help": Usage(); done = true; break;
-          case "/?": Usage(); done = true; break;
-          case "--default-config": DefaultConfig();  done = true; break;
+          case "--help": return Usage;
+          case "/?": return Usage;
+          case "--default-config": return DefaultConfig;
+          case "--calc-age": return CalculateAge;
           case "--config":
             {
               if (args.Length > 1)
@@ -49,10 +48,12 @@ namespace LogRotater
               {
                 ConsoleError("I got a --config switch but not a config file", 42);
               }
-              break;
+              return Process;
             }
         }
       }
+
+      return Process;
     }
   }
 }
