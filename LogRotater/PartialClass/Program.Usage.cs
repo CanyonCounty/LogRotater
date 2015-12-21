@@ -17,6 +17,7 @@ namespace LogRotater
       DisplayArg("/?", "Alias for this usage");
       DisplayArg("--config <filename>", "Use this to pass in a config file - filename required");
       DisplayArg("--default-config", "Creates a configuration file with all defaults set");
+      DisplayArg("--calc-age", "Calculates the age of the files in the log directory, reports the file age and count, and exits");
     }
 
     private static void DisplayArg(string arg, string help)
